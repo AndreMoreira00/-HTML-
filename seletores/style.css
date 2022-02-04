@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* 
+id = #
+class = .
+*/
+body{
+    background-color: rgb(111, 192, 111);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(7, 95, 7);
+}
+
+h2{
+    color: rgb(36, 122, 36);
+}
+#principal{
+    text-align: center;
+}
+.basico{
+    color: blue;
+}
+.destaque{
+    background-color: chocolate;
+}

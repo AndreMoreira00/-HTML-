@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Html</title>
+    <style>
+        body{
+            /* peso e tamanho das letras se fazem pelo comando work sans e font wheight */
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas absolutas:
+            cm, mm, in, px, pt, pc
+            recomendado usar px
+
+            Medidas relativas:
+            em, ex, rem, vw, vh, %
+            recomendado usar em
+            16px = 1em
+            */
+            font-size: 16px;
+            font-weight: bolder;
+            /* pesos literais:
+            lighter normal bold volder 
+            pesos numericos:
+            vai de 100 a 900*/
+            font-style: italic;
+            text-decoration: underline;
+        }
+        h1{
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans', sans-serif;
+            /* é possivel condensar esses quatro comandos em um comando font: 
+            a ordem é font style - font weight - fonte size - font family*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsam nostrum eveniet commodi in accusamus quas mollitia rerum! Atque ratione incidunt repellendus quaerat debitis ut excepturi? Maiores assumenda autem placeat! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur tenetur eos molestias magni sit ipsam laudantium quod provident, debitis perferendis iure exercitationem quo culpa rem expedita vitae. Omnis, ipsum magni!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate officia repellat sequi eligendi perspiciatis totam aliquam ullam possimus consequatur! Eveniet, aspernatur? Libero corrupti veritatis exercitationem quis, et distinctio asperiores. Quae!</p>
+    <h1>Subtitulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci laborum exercitationem natus at delectus iste praesentium repellat perferendis libero doloremque cupiditate sunt, placeat ex dolore, perspiciatis nisi ratione rem fugit.</p>
+</body>
+</html>

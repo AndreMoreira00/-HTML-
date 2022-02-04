@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        /* colocar fontes de arquivos externos */
+        @font-face {
+            font-family: 'Hello';
+            src: url('Hello.otf') format('opentype'), url('Hello.ttf') format('truetype');
+        }
+        /* Tipos de format
+        - opentype(otf)
+        - truetype(ttf)
+        - embedded-opentype
+        - truetype-att
+        - svg*/
+        body{
+            font-family: 'Hello' ;
+        }
+        h1{
+            font-family: 'Hello';
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes externas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium itaque minus mollitia doloribus quaerat enim repudiandae dolor autem aperiam fugit, voluptatum quia accusamus culpa quod harum ex debitis dolores voluptate.</p>
+</body>
+</html>
