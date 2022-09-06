@@ -1,3 +1,2 @@
 # -HTML-
-Curso de html e css
-Olá estou aprendendo HTML
+Curso de html e css do Curso Em Vídeo do professor Gustavo Guanabara.
